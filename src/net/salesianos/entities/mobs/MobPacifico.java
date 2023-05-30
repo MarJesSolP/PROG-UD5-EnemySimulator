@@ -1,5 +1,6 @@
-package net.salesianos.entities;
+package net.salesianos.entities.mobs;
 
+import net.salesianos.entities.mobs.Mob;
 import net.salesianos.interfaces.danio;
 
 public class MobPacifico extends Mob implements danio {

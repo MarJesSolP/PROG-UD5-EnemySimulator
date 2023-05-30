@@ -1,5 +1,6 @@
-package net.salesianos.entities;
+package net.salesianos.entities.mobs;
 
+import net.salesianos.entities.mobs.Mob;
 import net.salesianos.interfaces.Combate;
 
 public abstract class MobHostil extends Mob implements Combate {

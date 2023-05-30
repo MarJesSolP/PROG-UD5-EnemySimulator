@@ -1,4 +1,4 @@
-package net.salesianos.entities;
+package net.salesianos.entities.mobs;
 
 public abstract class Mob {
     protected int salud;
