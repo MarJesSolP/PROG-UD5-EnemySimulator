@@ -11,6 +11,7 @@ public abstract class MobHostil extends Mob implements Combate {
         this.fuerza = fuerza;
     }
 
+
     @Override
     public int atacar() {
         return fuerza;
@@ -19,7 +20,7 @@ public abstract class MobHostil extends Mob implements Combate {
     @Override
     public void recibirAtaque(int ataque) {
         this.salud = this.salud - ataque;
-        System.out.println("Ha recibido de daño: " + ataque + " y tienes" + salud +  "de salud:  ");
+        System.out.println("El mob ha recibido de daño: " + ataque + " de daño y tiene  " + salud +  " de salud:  ");
     }
 
 }

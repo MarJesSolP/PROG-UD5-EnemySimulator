@@ -10,7 +10,7 @@ public class MobPacifico extends Mob implements danio {
     }
 
     @Override
-    protected void moverse() {
+    public void moverse() {
 
     }
 

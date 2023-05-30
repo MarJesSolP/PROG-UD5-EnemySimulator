@@ -10,7 +10,7 @@ public class zombie extends MobHostil {
     }
 
     @Override
-    protected void moverse() {
+    public void moverse() {
         System.out.println("Se mueve hacia el personaje");
 
     }

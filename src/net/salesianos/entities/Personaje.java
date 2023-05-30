@@ -13,6 +13,14 @@ public class Personaje implements Combate {
         this.salud = 12;
     }
 
+    public int getSalud() {
+        return salud;
+    }
+
+    public int getDefensa() {
+        return defensa;
+    }
+
     @Override
     public int atacar() {
         return fuerza;
@@ -22,7 +30,7 @@ public class Personaje implements Combate {
     public void recibirAtaque(int ataque) {
         int danioRecibio = ataque - this.defensa;
         this. salud = this.salud - danioRecibio;
-        System.out.println("Ha recibido de daño: " + danioRecibio + " y tienes" + salud +  "de salud:  ");
+        System.out.println("El personaje ha recibido de daño: " + danioRecibio + " y tienes " + salud +  " de salud:  ");
     }
 
 

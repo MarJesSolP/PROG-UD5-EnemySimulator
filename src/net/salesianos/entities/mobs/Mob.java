@@ -7,6 +7,10 @@ public abstract class Mob {
         this.salud = salud;
     }
 
-    protected abstract void moverse();
+    public int getSalud() {
+        return salud;
+    }
+
+    public abstract void moverse();
 
 }

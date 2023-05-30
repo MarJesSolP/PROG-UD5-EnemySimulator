@@ -9,7 +9,7 @@ public class oveja extends MobPacifico {
         super(salud);
     }
     @Override
-    protected void moverse() {
+    public void moverse() {
         System.out.println("Se mueve por el campo");
     }
 
