@@ -1,8 +1,6 @@
 import net.salesianos.entities.Personaje;
-import net.salesianos.entities.mobs.Mob;
 import net.salesianos.entities.mobs.hostiles.enderman;
-import net.salesianos.entities.mobs.hostiles.zombie;
-import net.salesianos.entities.mobs.pacificos.oveja;
+
 
 import java.util.Random;
 import java.util.Scanner;
@@ -11,14 +9,14 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Bienvenido...");
         System.out.println("Seleccione el tipo de arma");
-        System.out.println("Opcion 1: Ninguna -- Fuerza: 1");
-        System.out.println("Opcion 2: Espada de madera -- Fuerza: 2");
-        System.out.println("Opcion 3: Espada de hierro -- Fuerza: 3");
-        System.out.println("Opcion 4: Espada de diamante -- Fuerza: 5");
+        System.out.println("Opcion 1: Ninguna ");
+        System.out.println("Opcion 2: Espada de madera");
+        System.out.println("Opcion 3: Espada de hierro ");
+        System.out.println("Opcion 4: Espada de diamante ");
         Scanner teclado = new Scanner(System.in);
         int opcion;
-        int fuerzaElegida = 0;
-        int armaduraElegida= 0;
+        int fuerzaElegida = -1;
+        int armaduraElegida= -1;
         int turnos = 0;
         opcion = teclado.nextInt();
         switch(opcion){
@@ -44,10 +42,10 @@ public class Main {
 
         }
         System.out.println("Seleccione una armadura \n" +
-                "opcion 1: Ninguna  -- Defensa :0\n" +
-                "opcion 2: De cuero  -- Defensa: 1 \n" +
-                "opcion 3: De hierro -- Defensa: 2 \n" +
-                "opcion 4: De diamante -- Defensa: 3");
+                "opcion 1: Ninguna  \n" +
+                "opcion 2: De cuero   \n" +
+                "opcion 3: De hierro  \n" +
+                "opcion 4: De diamante ");
 
         opcion = teclado.nextInt();
         switch (opcion){
