@@ -3,7 +3,7 @@ package net.salesianos.entities.mobs;
 import net.salesianos.entities.mobs.Mob;
 import net.salesianos.interfaces.danio;
 
-public class MobPacifico extends Mob implements danio {
+public abstract class MobPacifico extends Mob implements danio {
 
     public MobPacifico(int salud) {
         super(salud);
